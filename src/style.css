@@ -1,0 +1,40 @@
+:root {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.active {
+  font-weight: 700;
+}
